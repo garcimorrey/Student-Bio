@@ -12,9 +12,18 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 25%;
+    border-radius: 25% 5px;
 }
 
 ul {
     list-style-type: none;
+    font-weight: bold;
+    border: solid 5px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
 }
